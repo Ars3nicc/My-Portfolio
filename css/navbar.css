@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lato&family=Plus+Jakarta+Sans:ital,wght@0,700;1,400&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&family=Ubuntu&family=Work+Sans&display=swap');
+
+*{
+    padding: 0px;
+}
+/* SCROLLBAR CSS */
+html::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+	background-color: white;
+}
+
+html::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: white;
+}
+
+html::-webkit-scrollbar-thumb
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.2);
+	background-color: #EE5007;
+}
+.nav{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 10px
+}
+.site-title{
+    font-family: 'Ubuntu', 'sans serif';
+    padding: 0px 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFF5E1;
+    pointer-events: none;
+
+}
+span{
+	color: #EE5007;
+}
+.cyan{
+    color: #329DA0;
+}
+.white{
+    color: #FFF5E1;
+}
+.navtitle{
+    font-family: 'Ubuntu';
+}
+
+.nav ul li{
+	list-style-type: none;
+    display: inline-flex;
+	padding: 25px 60px 0px 0px;
+}
+.nav ul li a{
+	color: #FFF5E1;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.nav ul li a:hover{
+	color: #f9004d;
+    transition: .7s;
+}
+.sub-menu{
+    display: none;
+}
+.nav ul li a.active{
+    color: #f9004d;
+}
+
+
+

@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lato&family=Plus+Jakarta+Sans:ital,wght@0,700;1,400&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', 'sans serif';
+  color: #FFF5E1;
+}
+body{
+    margin-top: auto;
+    background-color: #2F2E41;
+}
+span{
+	color: #EE5007;
+}
+.text{
+    color: #fcfc;
+}
+.cyan{
+    color: #329DA0;
+}
+.white{
+    color: #FFF5E1;
+}
+
+.silkscreen{
+    font-family: 'Silkscreen';
+}
+/* FIRST SECTION */
+.about{
+    width: 100%;
+    max-width: 100%;
+	padding: 100px 0px;
+    
+}
+.about img{
+    height: auto;
+    width: 350px;
+    border-radius: 100%;
+}
+.about-content{
+    width: 550px;
+}
+.main{
+    flex-wrap: wrap;
+    width: 1130px;
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-content h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-content h1{
+    color: #329DA0;
+    font-weight: bold;
+    font-size: 60px;
+}
+.about-content .find-out{
+    padding: 25px 0;
+}
+.button{
+	background-color: #EE5007;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	padding: 10px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.button:hover{
+	background-color: transparent;
+	border: 2px solid #EE5007;
+	cursor: pointer;
+    color: #EE5007;
+}
+.art-collection{
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #575669;
+    width: 100%;
+    padding: 20px 0;
+}
+.art-main{
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.art-title h1{
+    font-family: 'Silkscreen';
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    padding: 0 7rem;
+    font-size: 65px;
+}
+.art-content .line{
+    display: inline-block;
+    width: 270px;
+    height: 3px;
+    background-color: #EEB523;
+}
+
+.art-content{
+    width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.art-content img{
+    height: auto;
+    width: 450px;
+    border-radius: 10px;
+    padding: 45px 0;
+}
+.collection-content{
+    width: 550px;
+}
+.collection-content h2{
+    color: white;
+}
+.collection-content div{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+/* SKILLS AND TRAITS */
+.skills-content{
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 20px 0;
+}
+.skills-title h1{
+    font-family: 'Silkscreen';
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    padding: 0 7rem;
+    font-size: 65px;
+}
+
+.box{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.skills-card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #575669;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.skills-card img{
+
+    height: auto;
+    width: 200px;
+    padding: 20px 0;
+    align-items: center;
+    background: inherit;
+
+}
+.skills-card img .designer{
+    height: auto;
+    width: 10px;
+}
+h5{
+	color: white;
+	font-size: 23px;
+    margin-top: 30px;
+	margin-bottom: 15px;
+    background: inherit;
+}
+.pra{
+    background: inherit;
+}
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+    background: inherit;
+}
+.card .button{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.skills-card.button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+/* FOOTER START */
+
+
+/* 3D ANIMATED BUTTON*/
+.anim-button{
+    position:relative;
+    display:inline-block;
+    margin:10px;
+  }
+  
+  .anim-button a{
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+    text-align: center;
+    text-decoration:none;
+    background-color:#EE5007;
+    display:block;
+    position:relative;
+    padding:15px 20px;
+    
+    
+    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #A54418;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #A54418;
+    box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #A54418;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  .anim-button a:active{
+    top:10px;
+    background-color:#EE5007;
+    
+    -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+    box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  }
+  
+  .anim-button:after{
+    content:"";
+    height:100%;
+    width:100%;
+    padding:4px;
+    position: absolute;
+    bottom:-15px;
+    left:-4px;
+    z-index:-1;
+    background-color:#2B1800;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }

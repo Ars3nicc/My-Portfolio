@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&family=Silkscreen:wght@400;700&display=swap');
+
+*{
+  margin:0; padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #FFF5E1;
+}
+body{
+  background-color: #2F2E41;
+}
+a{
+  text-decoration: none;
+}
+
+span{
+	color: #EE5007;
+}
+.cyan{
+    color: #329DA0;
+}
+.white{
+    color: #FFF5E1;
+}
+.container{
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+.title{
+  text-align: center;
+  font-weight: normal;
+  font-size: 35px;
+  position: relative;
+  margin-top: 80px;
+}
+
+.title::before{
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background-color: #D1512D;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: animate 4s linear infinite;
+}
+@keyframes animate{
+  0%{
+    width: 200px;
+  }
+  50%{
+    width: 300px;
+  }
+  100%{
+    width: 200px;
+  }
+}
+
+.container .image-container{
+  margin-top: 90px;
+  columns: 3 250px;
+  gap:10px;
+}
+
+.container .image-container img{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+}
+
+.content-title{
+  justify-content: center;
+  align-items: center;
+  
+}
+.button{
+	background-color: #EE5007;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+  margin-top: 40px;
+  margin-left: 37%;
+	padding: 10px 20px;
+	border-radius: 30px;
+	transition: .4s; 
+  text-align: center;
+}
+.button:hover{
+	background-color: transparent;
+	border: 2px solid #EE5007;
+	cursor: pointer;
+    color: #EE5007;
+}
