@@ -81,6 +81,7 @@ span{
 	cursor: pointer;
     color: #EE5007;
 }
+
 .art-collection{
     flex-wrap: wrap;
     align-items: center;
@@ -90,7 +91,6 @@ span{
 }
 .art-main{
     max-width: 100%;
-    flex-wrap: wrap;
 }
 .art-title h1{
     font-family: 'Lato';
@@ -118,7 +118,7 @@ span{
 .art-content img{
     height: auto;
     width: 450px;
-    border-radius: 10px;
+    border-radius: 10%;
     padding: 45px 0;
 }
 .collection-content{
