@@ -10,6 +10,12 @@ body{
     background-color: #2F2E41;
 }
 
+.genre-title{
+    font-family: 'Lato';
+    font-size: 60px;
+    font-weight: bold;
+}
+
 .about{
     width: 100%;
     max-width: 100%;
@@ -49,6 +55,10 @@ body{
 .text{
     padding-top: 20px;
 }
+.genre-text{
+    word-wrap: break-word;
+    color: #fcfc;
+}
 .about-content .find-out{
     padding: 25px 0;
 }
@@ -69,3 +79,25 @@ body{
     font-weight: bold;
     text-align: center;
 }
+.section{
+    padding: 30px;
+}
+.section img{
+    height: auto;
+    width: 400px;
+}
+.genre-art{
+    width: 550px;
+}
+
+.line{
+    display: inline-block;
+    width: 270px;
+    height: 3px;
+    background-color: #EEB523;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #fcfc;
+  }
