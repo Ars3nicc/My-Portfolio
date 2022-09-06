@@ -9,6 +9,7 @@ body{
     margin-top: auto;
     background-color: #2F2E41;
 }
+
 .about{
     width: 100%;
     max-width: 100%;
@@ -16,6 +17,7 @@ body{
     
 }
 .about img{
+    padding-top: 20px;
     height: auto;
     width: 400px;
 }

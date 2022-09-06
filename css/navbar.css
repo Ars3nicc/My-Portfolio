@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lato&family=Plus+Jakarta+Sans:ital,wght@0,700;1,400&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&family=Ubuntu&family=Work+Sans&display=swap');
 
+/* NAVIGATION BAR CSS */
+
 *{
     padding: 0px;
 }
-/* SCROLLBAR CSS */
+/* SCROLLBAR */
 html::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
