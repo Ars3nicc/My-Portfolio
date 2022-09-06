@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lato&family=Plus+Jakarta+Sans:ital,wght@0,700;1,400&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&family=Ubuntu&family=Work+Sans&display=swap');
+
+/* ABOUT ME PAGE */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'sans serif';
+    color: #FFF5E1;
+  }
+body{
+      margin-top: auto;
+      background-color: #2F2E41;
+}
+
+.page-title{
+  padding: 35px 0px;
+  text-align: center;
+}
+
+.genre-text{
+  word-wrap: break-word;
+  color: #fcfc;
+}
+
+.background{
+  background-color: #575669;
+}
+.about{
+  width: 100%;
+  max-width: 100%;
+padding: 50px 0px;
+  
+}
+.about img{
+  padding-top: 20px;
+  height: auto;
+  width: 400px;
+}
+.author{
+  width: 550px;
+}
+.page-title{
+  font-weight: bold;
+}
+.main{
+  flex-wrap: wrap;
+  width: 1130px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.author-name{
+  display: inline-block;
+}
+.author-name h3{
+  font-size: 50px;
+  font-weight: bold;
+  color: #07D2EE;
+}
+.about h1{
+  color: #329DA0;
+  font-weight: bold;
+  font-size: 60px;
+}
+.text{
+  padding-top: 20px;
+}
+.author-description{
+  text-align: justify;
+}
