@@ -18,6 +18,7 @@ body{
   text-align: center;
 }
 
+
 .genre-text{
   word-wrap: break-word;
   color: #fcfc;
@@ -33,12 +34,12 @@ padding: 50px 0px;
   
 }
 .about img{
-  padding-top: 20px;
   height: auto;
   width: 400px;
   border-radius: 10%;
 }
 .author{
+  padding-top: 15px;
   width: 550px;
 }
 .page-title{
@@ -159,4 +160,82 @@ h5{
   height: 3px;
   background-color: #EEB523;
   align-items: center;
+}
+
+.logo:hover{
+  transform: scale(1.3);
+	transition: .3s;
+  background: none;
+}
+
+.myschool{
+  width: 100%;
+  max-width: 100%;
+  padding: 50px 0px;
+  
+}
+
+.myschool img{
+  height: auto;
+  width: 300px;
+}
+
+.maroon{
+  color: #DF2D2D;
+}
+
+.light-cyan{
+  color: #07D2EE;
+}
+
+.school{
+  width: 450px;
+}
+
+.school-name h1{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.logo-title{
+  padding: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cv-title{
+  padding-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.cv-download{
+  text-align: center;
+}
+
+.dl-btn{
+	background-color: #EE5007;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	padding: 10px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+  width: 30%;
+}
+
+.link{
+  padding: 20px 0px;
+}
+
+.dl-btn:hover{
+	background-color: transparent;
+	border: 2px solid #EE5007;
+	cursor: pointer;
+  color: #EE5007;
+
 }
