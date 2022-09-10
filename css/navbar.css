@@ -73,5 +73,28 @@ span{
     color: #f9004d;
 }
 
+.nav ul ul{
+    position: absolute;
+    top: 50px;
+    visibility: hidden;
+}
+
+.nav ul li:hover > ul{
+    top: 60px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+  }
+
+.nav ul li ul li{
+    display: block;
+    position: relative;
+}
+
+.nav ul li ul li a{
+    background-color: #575669;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 
