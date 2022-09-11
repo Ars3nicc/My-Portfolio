@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lato&family=Plus+Jakarta+Sans:ital,wght@0,700;1,400&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'sans serif';
+    color: #FFF5E1;
+  }
+body{
+    margin-top: auto;
+    background-color: #2F2E41;
+}
+
+.error-message {
+    padding: 40px 0px;
+}
+
+.center{
+    height: auto;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.txt-center{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.dl-btn{
+	background-color: #EE5007;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	padding: 10px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+    width: 20%;
+}
+.dl-btn:hover{
+	background-color: transparent;
+	border: 2px solid #EE5007;
+	cursor: pointer;
+  color: #EE5007;
+
+}
+.go-back{
+    text-align: center;
+}
