@@ -11,7 +11,6 @@ footer{
 	justify-content: center;
 }
 footer p:nth-child(1){
-    background: #1C1B28;
 	font-size: 30px;
 	color: white;
 	margin-bottom: 20px;
@@ -54,4 +53,24 @@ footer p:nth-child(2){
 
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 var(--hover); }
+}
+.custom-shape-divider-bottom-1662909873 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1662909873 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 125px;
+}
+
+.custom-shape-divider-bottom-1662909873 .shape-fill {
+    fill: #EE5007;
 }

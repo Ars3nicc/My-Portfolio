@@ -3,14 +3,15 @@
 <head>
 	<title>My Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
 
 </head>
+
+<!-- Standard Main Navigation Bar -->
 <nav class="nav">
     <a class="site-title">My  <span class="navtitle">Portfolio</span></a>
     <ul>
@@ -33,7 +34,7 @@
     </ul>
 </nav>
 <body>
-
+    <!-- About section -->
     <section class="about">
         <div class="main">
             <div class="about-content">
@@ -49,18 +50,21 @@
         </div>
     </section>
 
+    
+    <!-- Art section -->
     <div class="art-collection">
         <div class="art-main">
             <div class="art-title">
                 <h1>ART PROJECTS</h1>
             </div>
+            
             <div class="art-content">
                 <img src="img/art/summer.png">
                 <div class="collection-content">
                     <h2>Digital Art Collections</h2>
                     <span class="line"></span>
-                    <div class="text">I do digital arts from specific genres and preferrably improvise the design of
-                        my artworks.
+                    <div class="text">I do digital arts for specific genres and preferrably improvise the design of
+                        my artworks. Also, I usually do character designing.
                     </div>
                     <div class="anim-button">
                         <a href="elf-category.html">See my Art</a>
@@ -68,9 +72,10 @@
                 </div>
             </div>
         </div>
-
-
     </div>
+
+
+    <!-- Skills section -->
     <div class="skills-content">
         <div class="skills-title">
             <h1>SKILLS & TRAITS</h1>
@@ -88,7 +93,7 @@
                 <img src="img/svg/coding.svg">
 				<h5>Programming</h5>
 				<div class="pra">
-					<p>Applied practices from BS Information Technology course. Experienced with particular programming languages such as ReactJS, Javascript, HTML, CSS, VuesJS, Python, PHP, etc.</p>
+					<p>Applied practices from BS Information Technology course. Experienced with particular programming languages such as ReactJS, Javascript, HTML, CSS, VuesJS, Python, PHP, C, etc.</p>
 
 				</div>
 			</div>
@@ -103,16 +108,21 @@
         </div>
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- TYPING ANIMATION SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> <!-- Script source cdn -->
     <script>
         var typed = new Typed(".input", {
-            strings: ["Franz Manrique","A UI/UX Designer","A Digital Artist"],
-            typeSpeed: 70,
-            backSpeed: 60,
-            loop: true
+            strings: ["Franz Manrique","A UI/UX Designer","A Digital Artist"], // Given strings that the script will type
+            typeSpeed: 70, // Speed of typing
+            backSpeed: 60, // Speed of reset from typing
+            loop: true // Typing will loop forever
         })
     </script>
+
 </body>
+
+    <!-- Main footer -->
 	<footer>
 		<p>FRANZ / PARIZZ</p>
 		<p>@lafranzz | @franzmanriquePH</p>
@@ -125,5 +135,10 @@
             
 		</div>
 		<p class="end">All Rights Reserved 2022</p>
+        <div class="custom-shape-divider-bottom-1662909873">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
 	</footer>
 </html>

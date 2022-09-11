@@ -5,6 +5,7 @@
 *{
     padding: 0px;
 }
+
 /* SCROLLBAR */
 html::-webkit-scrollbar-track
 {
@@ -39,6 +40,7 @@ html::-webkit-scrollbar-thumb
     pointer-events: none;
 
 }
+/* SPAN VARIATIONS */
 span{
 	color: #EE5007;
 }
@@ -48,6 +50,9 @@ span{
 .white{
     color: #FFF5E1;
 }
+/* ******** */
+
+/* NAVBAR COMPONENTS */
 .navtitle{
     font-family: 'Ubuntu';
 }

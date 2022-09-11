@@ -61,6 +61,8 @@ span{
   }
 }
 
+/* GALLERY IN GRID FORMAT */
+
 .container .image-container{
   margin-top: 90px;
   columns: 3 250px;
