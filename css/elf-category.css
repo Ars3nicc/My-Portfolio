@@ -100,14 +100,6 @@ span{
   color: #EE5007;
 }
 
-.button a{
-  color: white;
-  text-decoration: none;
-}
-.button a:hover{
-  cursor: pointer;
-  color: #EE5007;
-}
 
 .container-fluid{
   text-align: center;
