@@ -43,6 +43,11 @@ span{
     width: 350px;
     border-radius: 100%;
 }
+
+.user{
+    box-shadow: 30px 40px 0px 0px #EE5007;
+}
+
 .about-content{
     width: 550px;
 }
@@ -167,7 +172,14 @@ span{
 	position: relative;
 	overflow: hidden;
 	text-align: center;
+    border-bottom: solid 12px #EE5007;
 }
+
+.skills-card:hover{
+    border-bottom: solid 12px #07D2EE;
+
+}
+
 .skills-card img{
 
     height: auto;

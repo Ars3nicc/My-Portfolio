@@ -19,7 +19,6 @@ body{
   font-size: 60px;
 }
 
-
 .genre-text{
   word-wrap: break-word;
   color: #fcfc;
@@ -39,13 +38,20 @@ padding: 50px 0px;
   width: 400px;
   border-radius: 10%;
 }
+
+.user{
+  box-shadow: -60px 20px 0px 0px #EE5007;
+}
+
 .author{
   padding-top: 15px;
   width: 550px;
 }
+
 .page-title{
   font-weight: bold;
 }
+
 .main{
   flex-wrap: wrap;
   width: 1130px;
@@ -102,6 +108,7 @@ padding: 50px 0px;
 	align-items: center;
 	min-height: 400px;
 }
+
 .skills-card{
 	height: auto;
 	width: 200px;
@@ -112,12 +119,16 @@ padding: 50px 0px;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
+  border-bottom: solid 10px #EE5007;
 }
+
 .skills-card:hover{
   transform: scale(1.3);
   background-color: #EE5007;
 	transition: 1s;
+  border-bottom: solid 10px #575669;
 }
+
 .skills-card img{
 
     height: auto;
@@ -239,4 +250,28 @@ h5{
 	cursor: pointer;
   color: #EE5007;
 
+}
+
+.info-main{
+  padding: 20px 0px;
+}
+.add-info{
+  padding-top: 20px;
+}
+
+.info-title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.info-details{
+  text-align: center;
+  background-color: #575669;
+  padding: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
