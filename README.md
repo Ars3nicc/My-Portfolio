@@ -5,3 +5,6 @@ This webpage is for display for the author's profile and details. The portfolio 
 - HTML
 - CSS
 - JavaScript
+
+## Published Website from GitHub Pages
+See my currently updated webpage [My Portfolio](https://ars3nicc.github.io/PORTFOLIO/).
