@@ -276,3 +276,12 @@ h5{
     -moz-border-radius: 5px;
     border-radius: 5px;
   }
+
+  @media screen and (max-width: 970px){
+    body{
+        display: block;
+    }
+    .art-title{
+        text-align: center;
+    }
+  }

@@ -4,32 +4,34 @@
 	<title>My Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/navbar.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
 </head>
 
 <!-- Standard Main Navigation Bar -->
-<nav class="nav">
-    <a class="site-title">My  <span class="navtitle">Portfolio</span></a>
-    <ul>
+<nav>
+    <div class="wrapper">
+      <div class="logo"><a href="#">My Portfolio</a></div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="commision.html">Commission</a></li>
         <li>
-            <a class="active" href='index.html'>Home</a>
+          <a href="#" class="desktop-item">Projects</a>
+          <input type="checkbox" id="showDrop">
+          <label for="showDrop" class="mobile-item">Projects</label>
+          <ul class="drop-menu">
+            <li><a href="elf-category.html">Art</a></li>
+            <li><a href="#">Programming</a></li>
+          </ul>
         </li>
-        <li>
-            <a href='commision.html'>Commission</a>
-        </li>
-        <li>
-            <a>Projects </a>
-            <ul>
-                <li><a href="">Art Projects</a></li>
-                <li><a href="">Programming Projects</a></li>
-            </ul>
-        </li>
-        <li>
-            <a href='about-me.html'>About Me</a>
-        </li>
-    </ul>
+        <li><a href="about-me.html">About Me</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
 </nav>
 <body>
     <!-- About section -->
