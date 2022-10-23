@@ -110,3 +110,13 @@ hr {
     border-top: 2px solid #fcfc;
   }
 
+  @media screen and (max-width: 970px) {
+    .commission-content{
+        display: block;
+    }
+    .genre-title{
+        text-align: center;
+    }
+
+  }
+

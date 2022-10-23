@@ -90,11 +90,12 @@ span{
 
 /* ART SECTION */
 .art-collection{
-    flex-wrap: wrap;
+    display: flex;
     align-items: center;
     background-color: #575669;
     width: 100%;
     padding: 20px 0;
+    
 }
 .art-main{
     max-width: 100%;
@@ -161,7 +162,7 @@ span{
 	min-height: 400px;
 }
 .skills-card{
-	height: 365px;
+	height: 450px;
 	width: 335px;
 	padding: 20px 35px;
 	background: #575669;
@@ -281,6 +282,13 @@ h5{
     body{
         display: block;
     }
+    .about-content{
+        text-align: center;
+    }
+    .user{
+        margin-top: 20px;
+    }
+
     .art-title{
         text-align: center;
     }
