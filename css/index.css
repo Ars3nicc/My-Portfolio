@@ -31,6 +31,16 @@ span{
     font-family: 'Silkscreen';
 }
 
+.section-header{
+    margin-bottom: 15px;
+    text-align: center;
+    color: white;
+    padding: 0 7rem;
+    font-size: 65px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 /* FIRST SECTION */
 .about{
     width: 100%;
@@ -89,54 +99,34 @@ span{
 }
 
 /* ART SECTION */
-.art-collection{
-    display: flex;
-    align-items: center;
+.my-art{
     background-color: #575669;
-    width: 100%;
-    padding: 20px 0;
-    
-}
-.art-main{
-    max-width: 100%;
-}
-.art-title h1{
-    margin-bottom: 15px;
-    text-align: center;
-    color: white;
-    padding: 0 7rem;
-    font-size: 65px;
-}
-.art-content .line{
-    display: inline-block;
-    width: 270px;
-    height: 3px;
-    background-color: #EEB523;
+    padding: 20px;
 }
 
-.art-content{
-    width: 1130px;
-	max-width: 95%;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+.my-art-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
-.art-content img{
-    height: auto;
-    width: 450px;
-    border-radius: 10%;
-    padding: 45px 0;
+
+.my-art-image_display{
+    height:auto;
+    width: 70vh;
 }
-.collection-content{
-    width: 550px;
+
+.my-art-text_content{
+    display: block;
 }
-.collection-content h2{
-    color: white;
+
+.content-title{
+    font-weight: bold;
+    font-size: 1.8rem;
 }
-.collection-content div{
-    padding-top: 40px;
-    padding-bottom: 10px;
+
+.content-description{
+    padding-top: 20px;
 }
 
 /* SKILLS AND TRAITS */
@@ -145,13 +135,6 @@ span{
     width: 100%;
     max-width: 100%;
     padding: 20px 0;
-}
-.skills-title h1{
-    margin-bottom: 15px;
-    text-align: center;
-    color: white;
-    padding: 0 7rem;
-    font-size: 65px;
 }
 
 .box{
@@ -290,6 +273,10 @@ h5{
     }
 
     .art-title{
+        text-align: center;
+    }
+
+    .my-art-text_content{
         text-align: center;
     }
   }
