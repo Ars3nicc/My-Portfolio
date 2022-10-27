@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&family=Silkscreen:wght@400;700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lato&family=Plus+Jakarta+Sans:ital,wght@0,700;1,400&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&display=swap');
 
 /* HOME PAGE */
@@ -25,6 +24,24 @@ span{
 }
 .white{
     color: #FFF5E1;
+}
+
+.button{
+	background-color: #EE5007;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	padding: 10px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.button:hover{
+	background-color: transparent;
+	border: 2px solid #EE5007;
+	cursor: pointer;
+    font-weight: bold;;
+    color: white;
 }
 
 .silkscreen{
@@ -81,22 +98,9 @@ span{
 }
 .about-content .find-out{
     padding: 25px 0;
+    color: #FFF5E1;
 }
-.button{
-	background-color: #EE5007;
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	padding: 10px 30px;
-	border-radius: 30px;
-	transition: .4s; 
-}
-.button:hover{
-	background-color: transparent;
-	border: 2px solid #EE5007;
-	cursor: pointer;
-    color: #EE5007;
-}
+
 
 /* ART SECTION */
 .my-art{
@@ -107,14 +111,19 @@ span{
 .my-art-content{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 5vh;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .my-art-image_display{
     height:auto;
     width: 70vh;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: margin 0.2s ease-in-out;
 }
+  
 
 .my-art-text_content{
     display: block;
@@ -128,6 +137,29 @@ span{
 .content-description{
     padding-top: 20px;
 }
+
+.button-container{
+    margin-top: 10vh;
+}
+
+.go-to-button{
+	background-color: #EE5007;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	padding: 10px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.go-to-button:hover{
+	background-color: transparent;
+	border: 2px solid #EE5007;
+	cursor: pointer;
+    font-weight: bold;;
+    color: white;
+}
+
 
 /* SKILLS AND TRAITS */
 .skills-content{

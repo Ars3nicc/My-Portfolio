@@ -239,7 +239,7 @@ h5{
   width: 30%;
 }
 
-.link{
+.cv-link{
   padding: 20px 0px;
 }
 
@@ -277,9 +277,27 @@ h5{
 
 @media screen and (max-width: 970px) {
   body{
+    display: block;
   }
+  .author{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .author-name{
     text-align: center;
+  }
 
+  .school{
+    text-align: center;
+  }
+
+  .cv-link{
+    width: 100%;
+  }
+
+  .info-details{
+    width: 100%;
   }
 }

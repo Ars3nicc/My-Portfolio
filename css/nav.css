@@ -159,7 +159,7 @@ nav .wrapper{
     transition: all 0.3s ease;
   }
   .nav-links .mobile-item:hover{
-    background: #3A3B3C;
+    background: #EE5007;
   }
   .drop-menu li{
     margin: 0;
