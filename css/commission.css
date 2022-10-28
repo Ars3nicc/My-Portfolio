@@ -68,6 +68,7 @@ body{
 .genre-text{
     word-wrap: break-word;
     color: #fcfc;
+    text-align: justify;
 }
 .about-content .find-out{
     padding: 25px 0;
