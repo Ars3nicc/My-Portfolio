@@ -102,12 +102,15 @@ span{
 	padding: 10px 20px;
 	border-radius: 30px;
 	transition: .4s; 
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .button:hover{
 	background-color: transparent;
 	border: 2px solid #EE5007;
 	cursor: pointer;
   color: #EE5007;
+  padding: 10px 70px;
+  color: #ffff;
 }
 
 

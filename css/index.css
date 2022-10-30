@@ -42,6 +42,7 @@ span{
 	cursor: pointer;
     font-weight: bold;;
     color: white;
+    padding: 10px 55px;
 }
 
 .silkscreen{
@@ -153,11 +154,12 @@ span{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .go-to-button:hover{
-	background-color: transparent;
+	background-color: #F86E2E;
 	border: 2px solid #EE5007;
 	cursor: pointer;
     font-weight: bold;;
     color: white;
+    padding: 10px 50px;
 }
 
 
@@ -188,6 +190,7 @@ span{
 	text-align: center;
     border-bottom: solid 12px #EE5007;
 }
+
 
 .skills-card:hover{
     border-bottom: solid 12px #07D2EE;
@@ -305,7 +308,12 @@ h5{
     }
 
     .section-header{
+        font-size: 3rem;
         text-align: center;
+    }
+
+    .about:nth-child(2){
+        flex-direction: column-reverse;
     }
 
     .art-title{

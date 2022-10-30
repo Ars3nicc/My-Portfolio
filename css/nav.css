@@ -43,6 +43,7 @@ nav .wrapper{
 }
 .nav-links li a:hover{
   background: #EE5007;
+  margin: 5px 10px;
 }
 .nav-links .mobile-item{
   display: none;
