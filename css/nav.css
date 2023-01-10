@@ -50,7 +50,6 @@ nav .wrapper{
 }
 .nav-links .drop-menu{
   position: absolute;
-  background: #2F2E41;
   width: 180px;
   line-height: 45px;
   top: 85px;
