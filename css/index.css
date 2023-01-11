@@ -53,10 +53,12 @@ span{
 .section-header{
     margin-bottom: 15px;
     color: white;
+    text-shadow: 4px 4px #EE5007;
     padding-left: 5vh;
     font-size: 3.7rem;
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
 }
 
 /* FIRST SECTION */
@@ -98,9 +100,15 @@ span{
     font-weight: bold;
     font-size: 60px;
 }
-.about-content .find-out{
+.about-content {
     padding: 25px 0;
     color: #FFF5E1;
+}
+.find-out{
+    margin-top: 5vh;
+    padding-bottom: 3vh;
+    font-style: italic;
+
 }
 
 .section{
@@ -132,13 +140,14 @@ span{
 
 .content-title{
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .content-description{
     padding-top: 20px;
     width: 90%;
     text-align: justify;
+    color: #fcfc;
 }
 
 .button-container{
@@ -205,6 +214,8 @@ span{
 
 .skills-card:hover{
     border-bottom: solid 12px #07D2EE;
+    margin-top: -55px;
+    transition: .4s;
 
 }
 
@@ -223,10 +234,12 @@ span{
     margin-top: 30px;
 	margin-bottom: 15px;
     background: inherit;
+    font-weight: bold;;
 }
 .skills-description{
 	color: #fcfc;
     font-size: 1rem;
+    text-align: justify;
 
 }
 .card .button{
@@ -312,6 +325,7 @@ span{
     .section-header{
         font-size: 3rem;
         text-align: center;
+        text-shadow: 4px 4px #EE5007;
     }
 
     .about:nth-child(2){

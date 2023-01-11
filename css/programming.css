@@ -13,13 +13,16 @@ body{
 .page-header{
     padding: 5vh;
     font-weight: bold;
+    text-shadow: 4px 4px #EE5007;
+    text-align: center;
 }
 
 
 .project-container{
     display: flex;
     margin: 6vh;
-    width: 80%;
+    width: 90%;
+    align-items: center;
     background-color: #575669;
 }
 
