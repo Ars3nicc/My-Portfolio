@@ -23,6 +23,8 @@ body{
     text-shadow: -5px 5px 0px #EE5007;
 }
 
+
+
 .about{
     width: 100%;
     max-width: 100%;
@@ -86,18 +88,52 @@ body{
     margin-left: 8px;
     width: 100px;
 }
+
+.soc-header{
+    color: #fcfc;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.socmed{
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+    padding: 5px;
+    margin-top: 2vh;
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+.bx{
+    font-size: 1.7rem;
+}
+
+
+
+.soc-main{
+    margin-top: 2vh;
+}
+
+
 .section-title{
     border: solid 2px #EE5007;
     background-color: #EE5007;
 }
-.header{
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-}
+
 .section{
     padding: 30px;
 }
+
+.sect-header{
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
 .section img{
     height: auto;
     width: 400px;

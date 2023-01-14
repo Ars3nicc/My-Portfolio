@@ -17,6 +17,10 @@ body{
     text-align: center;
 }
 
+.page-subtitle{
+    color: #fcfc;
+    text-align: center;
+}
 
 .project-container{
     display: flex;
@@ -51,16 +55,28 @@ body{
     width: 100%;
 }
 
+
+
 .project-date{
     font-style: italic;
     color: #fcfc;
 }
 
+.bx{
+    font-size: 1.5rem;
+}
+
+.btn-set{
+    text-decoration: none;
+}
+
 .button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
     margin-top: 3vh;
 	background-color: #EE5007;
 	color: white;
-	text-decoration: none;
 	border: 2px solid transparent;
 	padding: 10px 30px;
 	border-radius: 10px;
@@ -77,43 +93,6 @@ body{
 }
 
 
-.error-message {
-    padding: 40px 0px;
-}
-
-.center{
-    height: auto;
-    width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;  
-}
-
-.txt-center{
-    padding: 10px 0px;
-    text-align: center;
-}
-
-.dl-btn{
-	background-color: #EE5007;
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	padding: 10px 30px;
-	border-radius: 30px;
-	transition: .4s; 
-    width: 20%;
-}
-.dl-btn:hover{
-	background-color: transparent;
-	border: 2px solid #EE5007;
-	cursor: pointer;
-  color: #EE5007;
-
-}
-.go-back{
-    text-align: center;
-}
 
 @media screen and (max-width: 970px) {
     body{

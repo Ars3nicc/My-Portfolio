@@ -1,95 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Programming Projects</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" type="text/css" href="css/programming.css" />
-    <link rel="stylesheet" type="text/css" href="css/nav.css" />
-    <link rel="stylesheet" type="text/css" href="css/footer.css" />
-  </head>
-  <nav>
-    <div class="wrapper">
-      <div class="logo"><a href="#">My Portfolio</a></div>
-      <input type="radio" name="slider" id="menu-btn">
-      <input type="radio" name="slider" id="close-btn">
-      <ul class="nav-links">
-        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="commision.html">Commission</a></li>
-        <li>
-          <a href="#" class="desktop-item">Projects</a>
-          <input type="checkbox" id="showDrop">
-          <label for="showDrop" class="mobile-item">Projects</label>
-          <ul class="drop-menu">
-            <li><a href="programming.html">Programming</a></li>
-            <li><a href="elf-category.html">Art</a></li>
-            
-          </ul>
-        </li>
-        <li><a href="about-me.html">About Me</a></li>
-      </ul>
-      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
-    </div>
+
+<head>
+  <title>Programming Projects</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="css/programming.css" />
+  <link rel="stylesheet" type="text/css" href="css/nav.css" />
+  <link rel="stylesheet" type="text/css" href="css/footer.css" />
+</head>
+<nav>
+  <div class="wrapper">
+    <div class="logo"><a href="#">My Portfolio</a></div>
+    <input type="radio" name="slider" id="menu-btn">
+    <input type="radio" name="slider" id="close-btn">
+    <ul class="nav-links">
+      <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="commision.html">Commission</a></li>
+      <li>
+        <a href="#" class="desktop-item">Projects</a>
+        <ul class="drop-menu">
+          <li><a href="programming.html">Programming</a></li>
+          <li><a href="elf-category.html">Art</a></li>
+
+        </ul>
+      </li>
+      <li><a href="about-me.html">About Me</a></li>
+    </ul>
+    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+  </div>
 </nav>
 
-  <body>
-    <header class="page-header">Official Website Projects</header>
-    <div class="main">
-      <div class="project-container">
-        <img class="project-img" src="img/programming/certinize.png" />
-        <div class="project-details">
-          <div class="project-title">Blockchain-enabled E-Certificate Issuance and Verification System</div>
-          <div class="project-date">12/10/2022</div>
-          <div class="project-desc">
-            An e-Certificate issuance and verification system which integrates blockchain application as its cutting-edge form of technological security and data integrity. 
-          </div>
-          
-          <div class="button-container">
-            <a href="https://github.com/certinize"><button class="button">Check project</button></a>
-          </div>
+<body>
+  <header class="page-header">Official Website Projects</header>
+  <p class="page-subtitle">Project source codes are currently stored at Github repository as its temporary portolio storage for future projects to be done in the future.</p>
+  <div class="main">
+    <div class="project-container">
+      <img class="project-img" src="img/programming/certinize.png" />
+      <div class="project-details">
+        <div class="project-title">Blockchain-enabled E-Certificate Issuance and Verification System</div>
+        <div class="project-date">12/10/2022</div>
+        <div class="project-desc">
+          An e-Certificate issuance and verification system which integrates blockchain application as its cutting-edge
+          form of technological security and data integrity.
         </div>
-      </div>
 
-      <div class="project-container">
-        <img class="project-img" src="img/programming/barkadapp.png" />
-        <div class="project-details">
-          <div class="project-title">Barkadapp Online Bidding</div>
-          <div class="project-date">12/16/2022</div>
-          <div class="project-desc">
-            An online polling and bidding service enabling as decision matrix for the barkada. Bidding inputs by users will display and let's the group decide on the majority of the choices.
-          </div>
-          
-          <div class="button-container">
-            <a href="https://github.com/orgs/barkadapp/repositories"><button class="button">Check project</button></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-container">
-        <img class="project-img" src="img/programming/blizart.png" />
-        <div class="project-details">
-          <div class="project-title">blizArt Image Galleria</div>
-          <div class="project-date">07/27/2022</div>
-          <div class="project-desc">
-            Mobile application using Kotlin and Android studio. This app enables online storage of art galleries and display features upon upload.
-          </div>
-          
-          <div class="button-container">
-            <a href="https://github.com/Ars3nicc/blizART"><button class="button">Check project</button></a>
-          </div>
+        <div class="button-container">
+          <a class="btn-set" href="https://github.com/certinize"><button class="button"><i
+                class='bx bx-right-arrow-alt'></i>Go to full project</button></a>
         </div>
       </div>
     </div>
-    <!-- <div class="error-message">
+
+    <div class="project-container">
+      <img class="project-img" src="img/programming/barkadapp.png" />
+      <div class="project-details">
+        <div class="project-title">Barkadapp Online Bidding</div>
+        <div class="project-date">12/16/2022</div>
+        <div class="project-desc">
+          An online polling and bidding service enabling as decision matrix for the barkada. Bidding inputs by users
+          will display and let's the group decide on the majority of the choices.
+        </div>
+
+        <div class="button-container">
+          <a class="btn-set" href="https://github.com/certinize"><button class="button"><i
+                class='bx bx-right-arrow-alt'></i>Go to full project</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-container">
+      <img class="project-img" src="img/programming/blizart.png" />
+      <div class="project-details">
+        <div class="project-title">blizArt Image Galleria</div>
+        <div class="project-date">07/27/2022</div>
+        <div class="project-desc">
+          Mobile application using Kotlin and Android studio. This app enables online storage of art galleries and
+          display features upon upload.
+        </div>
+
+        <div class="button-container">
+          <a class="btn-set" href="https://github.com/certinize"><button class="button"><i
+                class='bx bx-right-arrow-alt'></i>Go to full project</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="error-message">
         <img class="center" src="img/svg/bug-fix.svg" alt="">
         <h1 class="txt-center">Sorry this page is not yet available</h1>
         <div class="go-back">
@@ -99,26 +105,27 @@
         </div>
 
     </div> -->
-  </body>
+</body>
 
-  <footer>
+<footer>
   <p>Hey! Connect with me!</p>
   <p>@lafranzz | @franzmanriquePH</p>
   <div class="social">
-      <a href="https://www.facebook.com/parizz.franz"><i class="fab fa-facebook-f"></i></a>
-      <a href="https://www.instagram.com/lafranzz/?hl=en"><i class="fab fa-instagram"></i></a>
-      <a href="https://twitter.com/franzmanriquePH"><i class="fab fa-twitter"></i></a>
-      <a href="https://github.com/Ars3nicc"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/franz-ronin-manrique-4b7612242/"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.facebook.com/parizz.franz"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/lafranzz/?hl=en"><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com/franzmanriquePH"><i class="fab fa-twitter"></i></a>
+    <a href="https://github.com/Ars3nicc"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/franz-ronin-manrique-4b7612242/"><i class="fab fa-linkedin"></i></a>
 
   </div>
   <p class="end">All Rights Reserved 2023</p>
   <div class="custom-shape-divider-bottom-1662909873">
-      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"></path>
-      </svg>
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path
+        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+        class="shape-fill"></path>
+    </svg>
   </div>
 </footer>
+
 </html>
