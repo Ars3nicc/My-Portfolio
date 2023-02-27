@@ -115,7 +115,40 @@ body{
 
 
 .soc-main{
+    width: 40%;
     margin-top: 2vh;
+}
+
+.fb-link{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #FFF5E1;
+    gap: 5px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #3b5998 ;
+}
+
+.fb-link:hover{
+    text-decoration: none;
+    color: #FFF5E1;
+}
+
+.ig-link{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #FFF5E1;
+    gap: 5px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: #DD2A7B;
+}
+
+.ig-link:hover{
+    text-decoration: none;
+    color: #FFF5E1;
 }
 
 

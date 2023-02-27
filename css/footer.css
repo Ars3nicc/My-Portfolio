@@ -51,6 +51,11 @@ footer p:nth-child(2){
   box-shadow: 0 0 0 2em rgba(#fff,0);
 }
 
+.end{
+	font-size: 1rem;
+	font-style: italic;
+}
+
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 var(--hover); }
 }

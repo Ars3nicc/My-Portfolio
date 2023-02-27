@@ -214,6 +214,7 @@ span{
 
 .skills-card:hover{
     border-bottom: solid 12px #07D2EE;
+    box-shadow: #07D2EE 0px 5px 15px;
     margin-top: -55px;
     transition: .4s;
 
