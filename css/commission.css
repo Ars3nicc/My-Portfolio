@@ -120,12 +120,14 @@ body{
 }
 
 .fb-link{
+    cursor: pointer;
     width: 100%;
     display: flex;
     align-items: center;
     color: #FFF5E1;
     gap: 5px;
     padding: 7px;
+    border: 2px solid transparent;
     border-radius: 10px;
     background-color: #3b5998 ;
 }
@@ -133,9 +135,13 @@ body{
 .fb-link:hover{
     text-decoration: none;
     color: #FFF5E1;
+    background-color: transparent;
+    border: 2px solid #3b5998;
+    transition: .3s;
 }
 
 .ig-link{
+    cursor: pointer;
     width: 100%;
     display: flex;
     align-items: center;
@@ -143,12 +149,16 @@ body{
     gap: 5px;
     padding: 7px;
     border-radius: 10px;
+    border: 2px solid transparent;
     background-color: #DD2A7B;
 }
 
 .ig-link:hover{
     text-decoration: none;
     color: #FFF5E1;
+    background-color: transparent;
+    border: 2px solid #DD2A7B;
+    transition: .3s;
 }
 
 
