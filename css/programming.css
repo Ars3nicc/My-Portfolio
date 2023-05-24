@@ -31,7 +31,7 @@ body{
 }
 
 .project-img{
-    height: 280px;
+    height: auto;
     width: 280px;
 }
 

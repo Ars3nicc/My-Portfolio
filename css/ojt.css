@@ -75,7 +75,7 @@ body {
     display: flex;
 }
 .caap-logo{
-    width: 350px;
+    width: 400px;
     height: auto;
 }
 .desc-section{
@@ -291,8 +291,9 @@ body {
     font-style: italic;
     padding:20px;
 }
+
 .ss-img{
-    width: 550px;
+    width: 530px;
     height: auto;
     padding: 15px;
     
@@ -302,6 +303,7 @@ body {
     height: 100%;
 }
 .cv-txt{
+    font-size: 3rem;
     color: #EE5007;
     text-shadow: 2px 2px #fcfc;
 }
