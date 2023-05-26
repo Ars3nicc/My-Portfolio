@@ -108,6 +108,7 @@ span {
   font-style: italic;
 }
 
+
 .section {
   background-color: #575669;
   padding: 20px;
@@ -347,7 +348,7 @@ span {
     margin-top: 10px;
     color: #ffff;
     padding: 10px;
-    width: 45%;
+    width: 100%;
     border-radius: 15px;
   }
   .job-year{
