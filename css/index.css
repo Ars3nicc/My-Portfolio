@@ -384,4 +384,45 @@ span {
   .my-art-text_content {
     text-align: center;
   }
+
+  .work-main{
+    display: block;
+  }
+  .caap-logo{
+    display: flex;
+    justify-content: center;
+  }
+  .desc-head{
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .desc-job{
+    text-align: center;
+  }
+  .section-content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-text-content{
+    text-align: center;
+  }
+  .section-image{
+    width: 350px;
+    height: auto;
+
+  }
+  .content-description{
+    text-align: center;
+  }
+  .exp-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
 }
