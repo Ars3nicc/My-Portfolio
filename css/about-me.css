@@ -34,8 +34,8 @@ body{
   
 }
 .user{
-  height: auto;
-  width: 400px;
+  height: 400px;
+  width: auto;
   border-radius: 100%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -62,11 +62,11 @@ body{
   justify-content: space-around;
 }
 .author-name h3{
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: bold;
   color: #07D2EE;
   text-transform: uppercase;
-  text-shadow: -3px 3px 0px #EE5007, -5px 5px 5px rgb(0 0 0 / 60%);
+  /* text-shadow: -3px 3px 0px #EE5007, -5px 5px 5px rgb(0 0 0 / 60%); */
 }
 .about h1{
   color: #329DA0;
@@ -77,10 +77,50 @@ body{
   padding-top: 20px;
 }
 .author-description{
-  margin-top: 5vh;
+  margin-top: 2vh;
   text-align: justify;
   color: #fcfc;
+  font-style: italic;
 }
+.qualifciation{
+  margin-top: 2vh;
+}
+.qualifciation-header{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.qualification-blt{
+  margin-top: 2vh;
+}
+.qualification-blt li{
+  list-style: none;
+  color: #fcfc;
+}
+
+.stack{
+  margin-left: 35vh;
+  margin-top: 4vh;
+}
+.stack-div{
+  padding: 15px;
+}
+.stack-hdr{
+  font-size: 5vh;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 3px 2px #EE5007;
+}
+.stack-tools{
+  display: flex;
+  gap: 3vh;
+}
+.tool{
+  padding: 10px;
+  border: 2px solid #2F2E41;
+  border-radius: 10px;
+}
+
+
 
 .section-header{
   text-align: center;
