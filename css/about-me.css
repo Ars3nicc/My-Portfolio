@@ -16,7 +16,10 @@ body{
 .page-title{
   padding: 35px 0px;
   text-align: center;
-  font-size: 60px;
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 6px 6px #ee5007;
 }
 
 .genre-text{
@@ -46,11 +49,6 @@ body{
   width: 550px;
 }
 
-.page-title{
-  font-weight: bold;
-  font-size: 2.9rem;
-  text-transform: uppercase;
-}
 
 .main{
   flex-wrap: wrap;
@@ -184,7 +182,8 @@ body{
 
 .school-name{
   display: block;
-  font-size: 2.3rem;
+  font-size: 4rem;
+  line-height: 4rem;
   color: #DF2D2D;
   font-weight: bold;
   text-shadow: 2px 2px #ffff;
@@ -227,40 +226,18 @@ body{
   text-transform: uppercase;
   font-weight: bold;
 }
-
-.cv-title{
-  padding-top: 20px;
+.cv-btn{
+  padding: 10px;
+  border-radius: 40px;
+  background-color: #EE5007;
+  width: 50%;
   text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 30px;
+  color: #ffff;
+  text-decoration: none;
 }
-
-.cv-download{
-  text-align: center;
-}
-
-.dl-btn{
-	background-color: #EE5007;
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	padding: 10px 30px;
-	border-radius: 30px;
-	transition: .4s; 
-  width: 30%;
-}
-
 .cv-link{
-  padding: 20px 0px;
-}
-
-.dl-btn:hover{
-	background-color: transparent;
-	border: 2px solid #EE5007;
-	cursor: pointer;
-  color: #EE5007;
-
+  text-emphasis: none;
+  color: #ffff;
 }
 
 .info-main{
@@ -307,19 +284,20 @@ body{
   height: auto;
 }
 .desc-head{
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
-  color: #6aa2dc;
-  text-shadow: 2px 2px #ffff;
+  color: #ffff;
+  line-height: 2.7rem;
 }
 .desc-job{
   font-size: 1.3rem;
   margin-top: 10px;
   color: #ffff;
   padding: 10px;
-  width: 65%;
+  width: 100%;
   border-radius: 15px;
   background-color: #848c98;
+  text-align: center;
 }
 .job-year{
   font-style: italic;
